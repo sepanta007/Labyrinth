@@ -30,7 +30,7 @@ Note : For more details and additional information, please refer to the associat
 **Compilation :**
 
 ```bash
-   g++ -std=c++11 -Wall -Wextra -o labyrinth *.cpp -lm
+g++ -std=c++11 -Wall -Wextra -o labyrinth *.cpp -lm
 ```
 
 The option `-lm` indicates to the compiler to link with the mathematical library (libm).
@@ -38,7 +38,7 @@ The option `-lm` indicates to the compiler to link with the mathematical library
 **Execution :**
 
 ```bash
-   ./labyrinth
+./labyrinth
 ```
 
 **Input :** The program will prompt you to enter the number of instances and the dimensions of the labyrinth for each instance. For each labyrinth instance, 
